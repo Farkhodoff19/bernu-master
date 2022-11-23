@@ -5,8 +5,8 @@ import hamburger from '../Images/hamburger.svg';
 
 function Header() {
   return (
-    <div className="header pt-5 pb-8">
-      <div className="container flex items-center max-sm:w-[400px]">
+    <div className="header pt-[20px] pb-[10px]">
+      <div className="container flex items-center">
 
         <a className="logo mr-20" href="!#">
           <img src={logo} alt={"logo"} />
